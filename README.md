@@ -1,5 +1,5 @@
 # Portfolio
-https://jaredwilliam97.github.io/Portfolio/
+https://jaredwilliam97.github.io/My-Portfolio/
 
 ![image](https://user-images.githubusercontent.com/80869140/121293880-034c5480-c8b2-11eb-97c3-4efce9475528.png)
 
