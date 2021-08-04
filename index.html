@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link rel="stylesheet" href="dist/bootstrap.min (1).css" /> -->
+  </head>
+  <body>
+    <!-- custom nav bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Jared William</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                >Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Bio</a>
+            </li> -->
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./assets/JS Resume (1).pdf"
+                target="_blank"
+                rel="noopener
+                "
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact me">Contact Me</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li> -->
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- making a comment  -->
+
+    <!-- container for body -->
+    <section class="row">
+      <div class="col-12 d-flex justify-content-center vh-100" id="background">
+        <div class="row mx-4 d-flex align-items-center">
+          <div class="col-4">
+            <img
+              id="bio-picture"
+              src="./assets/images/familypic.jpg"
+              alt="family pic"
+            />
+          </div>
+
+          <article class="card mt-5 col-8">
+            <div class="card-body">
+              <h4 class="card-title">About Me</h4>
+              <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <p class="card-text">
+                Hi, my name is Jared. I was a Hardware Server Engineer for the
+                past 8 years and feel I have gone as far as I can go in that
+                field. I just finished the Full Stack software course at the
+                University of Denver. This has taught me not only automation but
+                also the Full Stack Development. I am now ready to accept a
+                position that be either front-end, back-end or a fullstack
+                website! My skills include JavaScript, HTML5, CSS, JQuery,
+                React, Node.js, Bootstrap, MVC, MySQL, AJAX, MERN, Handlebars,
+                Sequelize, Mongo, Git, VS Code, and Agile methodologies. Please
+                connect with me through my email
+                <a href="mailto:sutch002@yahoo.com">sutch002@yahoo.com</a> or
+                visit my LinkedIn to connect. Please visit my Github to view all
+                of my projects that I have worked on.
+              </p>
+              <!-- About me section and testing for a certain commit -->
+
+              <a
+                href="https://github.com/JaredWilliam97"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa fa-github" style="width: 2rem"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/jared-sutch-5400b446/"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa fa-linkedin-square"></i
+              ></a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="col-12" id="projects">
+        <section class="container">
+          <div class="column-card">
+            <div class="card">
+              <a
+                id="weather-project-img"
+                class="card-img-top"
+                href="https://strong-one.github.io/Hollywood-Hub/"
+                target="_blank"
+                rel="noopener
+                "
+                alt="Hollywood-Hub"
+              ></a>
+              <!-- <img class="card-img-top" src="./assets/images/Weatherdashboard.jpg" alt="Projects"> -->
+
+              <!-- <h2>Projects</h2> -->
+              <div class="card-body">
+                <p>Group Project (Hollywood-Hub).</p>
+              </div>
+            </div>
+          </div>
+          <div class="column-card">
+            <div class="card">
+              <a
+                id="workday-schedule"
+                class="card-img-top"
+                href="https://jaredwilliam97.github.io/Work-Day-Scheduler/"
+                target="_blank"
+                rel="noopener"
+                alt="Work-Day-Scheduler"
+              ></a>
+
+              <div class="card-body">
+                <p>
+                  In this project I created a work-day scheduler to plan out
+                  your day.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column-card">
+            <div class="card">
+              <a
+                id="code-quiz"
+                class="card-img-top"
+                href="https://fierce-coast-75782.herokuapp.com/notes"
+                target="_blank"
+                rel="noopener"
+                alt="Note-Taker"
+              ></a>
+              <div class="card-body">
+                <p>Note-Taker: An application to take Notes</p>
+              </div>
+            </div>
+          </div>
+          <div class="column-card">
+            <div class="card">
+              <a
+                id="password-generator"
+                class="card-img-top"
+                href="https://murmuring-river-43433.herokuapp.com/"
+                target="_blank"
+                rel="noopener"
+                alt="password-generator"
+              ></a>
+              <div class="card-body">
+                <p>Full Stack Application for creating Recipes</p>
+              </div>
+            </div>
+          </div>
+          <div class="column-card">
+            <div class="card">
+              <a
+                id="budget-tracker"
+                class="card-img-top"
+                href="https://dry-mountain-02487.herokuapp.com/"
+                target="_blank"
+                rel="noopener"
+                alt="password-generator"
+              ></a>
+              <div class="card-body">
+                <p>Full Stack Application where I created a game using React</p>
+              </div>
+            </div>
+          </div>
+          <div class="column-card">
+            <div class="card">
+              <a
+                id="fitness-tracker"
+                class="card-img-top"
+                href="https://lit-inlet-24856.herokuapp.com/?id=60ccdb78e106220015089ca8"
+                target="_blank"
+                rel="noopener"
+                alt="password-generator"
+              ></a>
+              <div class="card-body">
+                <p>
+                  Full Stack Application for your own personal Fitness Tracker
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer>
+      <div id="contact me">
+        <div class="footer-content">
+          <p>My Personal Websites</p>
+          <ul class="socials">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jared-sutch-5400b446/"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa fa-linkedin-square"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/whitespice97"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/jwsutch/"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/JaredWilliam97"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto: sutch002@yahoo.com"
+                ><i class="fa fa-yahoo"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright &copy;2021 <span>Jared Sutch</span></p>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
